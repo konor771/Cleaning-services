@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111d">
+  <meta name="description" content="Cleaning Services — professional home, office and commercial cleaning in Yerevan.">
+  <title>Cleaning Services — A cleaner space, a better day</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header" id="home">
+    <a class="brand" href="#home" aria-label="Cleaning Services — главная"><span class="brand-icon">⌂</span><span class="brand-name">Cleaning<br><b>Services</b></span></a>
+    <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="main-nav" aria-label="Основная навигация">
+      <a class="nav-link active" href="#home">Главная</a><a class="nav-link" href="#about">О нас</a><a class="nav-link" href="#services">Услуги</a><a class="nav-link" href="#pricing">Прайс</a><a class="nav-link" href="#reviews">Отзывы</a><a class="nav-link" href="#contacts">Контакты</a>
+    </nav>
+    <div class="header-right"><label class="language-picker" aria-label="Choose language"><span class="sr-only">Language</span><select id="language-select" aria-label="Choose language"><option value="en" selected>EN</option><option value="ru">RU</option><option value="hy">Հայ</option><option value="es-MX">ES-MX</option></select></label><a class="phone-link" data-phone-link href="tel:+37477123456"><span class="phone-symbol">☎</span><span data-phone>+374 77 123 456</span></a><button class="button button-primary open-booking" type="button">Заказать уборку <span>↗</span></button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" role="img" aria-label="Профессиональная уборка современного дома"></div><div class="hero-overlay"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow"><span></span> ПРОФЕССИОНАЛЬНЫЙ КЛИНИНГ</p>
+        <h1>Cleaning<br><em>Services</em></h1>
+        <h2>Чистота. Комфорт. Забота о вас.</h2>
+        <p class="hero-text">Профессиональная уборка для вашего дома, офиса и бизнеса. Внимание к деталям — на каждом этапе.</p>
+        <div class="hero-actions"><button class="button button-primary open-booking" type="button">Заказать уборку <span>↗</span></button><a class="button button-ghost" href="#about"><span class="play">▶</span> Узнать о нас</a></div>
+      </div>
+      <div class="quality-card"><span class="quality-icon">✓</span><span><b>Забота о качестве</b><small>Каждая деталь имеет значение</small></span></div>
+      <a class="scroll-hint" href="#benefits">ЛИСТАЙТЕ ВНИЗ <span>↓</span></a>
+    </section>
+
+    <section class="benefits wrap" id="benefits" aria-label="Преимущества">
+      <div class="benefit"><span class="benefit-icon">✧</span><span><b>Опытная команда</b><small>Аккуратный подход</small></span></div>
+      <div class="benefit"><span class="benefit-icon">ϟ</span><span><b>Удобное время</b><small>Согласуем ваш график</small></span></div>
+      <div class="benefit"><span class="benefit-icon">♡</span><span><b>Понятные условия</b><small>Стоимость до начала работ</small></span></div>
+      <div class="benefit"><span class="benefit-icon">⌖</span><span><b>Ереван и рядом</b><small>Уточняйте район выезда</small></span></div>
+    </section>
+
+    <section class="about section wrap" id="about">
+      <div class="about-photo"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=85" alt="Светлая и ухоженная современная гостиная" loading="lazy"><div class="photo-note"><b>Чистота</b><span>в каждой детали</span></div></div>
+      <div class="about-copy"><p class="eyebrow">О КОМПАНИИ</p><h2 class="section-title">Больше, чем просто уборка</h2><p class="lead">Мы создаём чистое и комфортное пространство, в котором приятно жить и работать.</p><p class="muted">Cleaning Services — клининговый сервис для дома и бизнеса. Мы уделяем внимание пожеланиям клиента, подбираем подходящий формат уборки и заранее согласуем объём работ.</p><div class="about-points"><span>✓ Внимание к деталям</span><span>✓ Аккуратная работа</span><span>✓ Согласование до начала</span><span>✓ Удобная заявка онлайн</span></div><button class="button button-outline open-booking" type="button">Обсудить уборку <span>↗</span></button></div>
+    </section>
+
+    <section class="services section" id="services"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">ЧТО МЫ ПРЕДЛАГАЕМ</p><h2 class="section-title">Наши услуги</h2></div><p class="muted heading-note">Выберите нужный формат — мы поможем уточнить детали и рассчитать стоимость.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=85" alt="Уборка квартиры" loading="lazy"><div class="service-card-body"><span class="service-number">01 / ДОМ</span><h3>Квартиры и дома</h3><p>Поддерживающая уборка жилых помещений и забота о чистоте каждый день.</p><button class="text-button open-booking" data-service="Уборка квартир и домов" type="button">Заказать услугу <span>→</span></button></div></article>
+        <article class="service-card"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85" alt="Уборка офиса" loading="lazy"><div class="service-card-body"><span class="service-number">02 / БИЗНЕС</span><h3>Офисы и помещения</h3><p>Чистое рабочее пространство для сотрудников, клиентов и партнёров.</p><button class="text-button open-booking" data-service="Уборка офисов" type="button">Заказать услугу <span>→</span></button></div></article>
+        <article class="service-card"><img src="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?auto=format&fit=crop&w=900&q=85" alt="Генеральная уборка" loading="lazy"><div class="service-card-body"><span class="service-number">03 / ГЛУБОКАЯ</span><h3>Генеральная уборка</h3><p>Более детальная очистка поверхностей и труднодоступных зон.</p><button class="text-button open-booking" data-service="Генеральная уборка" type="button">Заказать услугу <span>→</span></button></div></article>
+        <article class="service-card"><img src="https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=900&q=85" alt="Чистая мягкая мебель" loading="lazy"><div class="service-card-body"><span class="service-number">04 / ТЕКСТИЛЬ</span><h3>Химчистка мебели</h3><p>Уход за мягкой мебелью, креслами и текстильными поверхностями.</p><button class="text-button open-booking" data-service="Химчистка мебели" type="button">Заказать услугу <span>→</span></button></div></article>
+        <article class="service-card"><img src="https://images.unsplash.com/photo-1503387762-592dea58ef23?auto=format&fit=crop&w=900&q=85" alt="Помещение после ремонта" loading="lazy"><div class="service-card-body"><span class="service-number">05 / ПОСЛЕ РЕМОНТА</span><h3>Уборка после ремонта</h3><p>Удаление строительной пыли и подготовка помещения к использованию.</p><button class="text-button open-booking" data-service="Уборка после ремонта" type="button">Заказать услугу <span>→</span></button></div></article>
+        <article class="service-card"><img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=900&q=85" alt="Средства для мытья окон" loading="lazy"><div class="service-card-body"><span class="service-number">06 / СТЕКЛО</span><h3>Мытьё окон</h3><p>Очистка окон и стеклянных поверхностей от загрязнений и разводов.</p><button class="text-button open-booking" data-service="Мытьё окон" type="button">Заказать услугу <span>→</span></button></div></article>
+      </div>
+    </div></section>
+
+    <section class="pricing section wrap" id="pricing"><div class="section-heading"><div><p class="eyebrow">ПРОЗРАЧНЫЕ УСЛОВИЯ</p><h2 class="section-title">Популярные форматы</h2></div><p class="muted heading-note">Стоимость ориентировочная. Точная цена зависит от площади, состояния помещения и объёма работ.</p></div>
+      <div class="price-grid">
+        <article class="price-card"><p class="price-label">НА КАЖДЫЙ ДЕНЬ</p><h3>Поддерживающая</h3><p class="muted">Для регулярной чистоты</p><div class="price">от 8 000 <small>AMD</small></div><ul><li>Пыль и поверхности</li><li>Полы и санузел</li><li>Кухонные поверхности</li></ul><button class="button button-outline open-booking" data-service="Поддерживающая уборка" type="button">Выбрать формат</button></article>
+        <article class="price-card featured"><span class="popular-tag">ЧАСТО ВЫБИРАЮТ</span><p class="price-label">ГЛУБОКАЯ ЧИСТОТА</p><h3>Генеральная</h3><p class="muted">Для тщательной уборки</p><div class="price">от 15 000 <small>AMD</small></div><ul><li>Комплексная уборка</li><li>Детальная очистка зон</li><li>Труднодоступные места</li></ul><button class="button button-primary open-booking" data-service="Генеральная уборка" type="button">Выбрать формат</button></article>
+        <article class="price-card"><p class="price-label">НОВОЕ ПРОСТРАНСТВО</p><h3>После ремонта</h3><p class="muted">Подготовка к заселению</p><div class="price">от 20 000 <small>AMD</small></div><ul><li>Удаление строительной пыли</li><li>Очистка поверхностей</li><li>Мытьё окон по согласованию</li></ul><button class="button button-outline open-booking" data-service="Уборка после ремонта" type="button">Выбрать формат</button></article>
+      </div><p class="price-disclaimer">* Цены приведены как пример оформления и должны быть подтверждены владельцем сервиса перед публикацией.</p>
+    </section>
+
+    <section class="reviews section" id="reviews"><div class="wrap review-layout"><div><p class="eyebrow">МНЕНИЕ КЛИЕНТОВ</p><h2 class="section-title">Нам важно ваше доверие</h2><p class="muted">Здесь можно разместить реальные отзывы клиентов после начала работы сервиса.</p></div><div class="review-panel"><div class="review-stars">★★★★★</div><blockquote id="review-text">«Понравилось, что заранее обсудили все детали и объём уборки. Всё прошло спокойно и аккуратно.»</blockquote><div class="review-author"><span class="review-avatar" id="review-avatar">АК</span><span><b id="review-name">Анна (пример отзыва)</b><small id="review-role">Демонстрационный текст</small></span><div class="review-controls"><button type="button" id="prev-review" aria-label="Предыдущий отзыв">←</button><button type="button" id="next-review" aria-label="Следующий отзыв">→</button></div></div><div class="review-dots" id="review-dots"><button class="selected" type="button" aria-label="Отзыв 1"></button><button type="button" aria-label="Отзыв 2"></button><button type="button" aria-label="Отзыв 3"></button></div></div></div></section>
+
+    <section class="faq section wrap" id="faq"><div class="section-heading"><div><p class="eyebrow">ОТВЕТЫ НА ВОПРОСЫ</p><h2 class="section-title">Часто спрашивают</h2></div></div><div class="faq-list">
+      <details><summary>Как рассчитывается стоимость уборки?<span>+</span></summary><p>Цена зависит от площади, типа помещения, выбранной услуги и состояния поверхностей. Детали нужно согласовать до начала работ.</p></details>
+      <details><summary>Нужно ли предоставлять инвентарь?<span>+</span></summary><p>Это следует уточнить при оформлении заявки: возможность предоставления оборудования и средств зависит от условий сервиса.</p></details>
+      <details><summary>Можно ли выбрать удобное время?<span>+</span></summary><p>Оставьте желаемую дату и время в комментарии к заявке — мы сможем подтвердить доступность после связи с вами.</p></details>
+    </div></section>
+
+    <section class="contact-section section wrap" id="contacts"><div class="contact-copy"><p class="eyebrow">СДЕЛАЙТЕ ПЕРВЫЙ ШАГ</p><h2 class="section-title">Готовы к чистоте?</h2><p class="muted">Расскажите, какая уборка вам нужна. Мы поможем подобрать подходящий формат.</p><a class="contact-line" data-phone-link href="tel:+37477123456">☎ <span data-phone>+374 77 123 456</span></a><p class="contact-small">Ереван, Армения · Район и время выезда согласуются отдельно</p></div><div class="contact-card"><h3>Оставить заявку</h3><p>Заполните форму — подготовим сообщение для отправки в WhatsApp.</p><button class="button button-primary open-booking" type="button">Заполнить заявку <span>↗</span></button></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-main"><div><a class="brand" href="#home"><span class="brand-icon">⌂</span><span class="brand-name">Cleaning<br><b>Services</b></span></a><p class="footer-slogan">Чистота начинается с нас.</p></div><div><h4>Навигация</h4><a href="#about">О компании</a><a href="#services">Услуги</a><a href="#pricing">Прайс</a><a href="#reviews">Отзывы</a></div><div><h4>Связаться</h4><a data-phone-link href="tel:+37477123456"><span data-phone>+374 77 123 456</span></a><a href="#contacts">Оставить заявку</a><p>Ереван, Армения</p></div><div><h4>Мы на связи</h4><p>Ответим на вопросы и поможем выбрать услугу.</p><button class="footer-contact open-booking" type="button">Написать нам →</button></div></div><div class="wrap footer-bottom"><span>© <span id="year"></span> Cleaning Services. Все права защищены.</span><a href="#home">Наверх ↑</a></div></footer>
+
+  <dialog class="booking-dialog" id="booking-dialog"><form id="booking-form"><button class="dialog-close" type="button" aria-label="Закрыть окно">×</button><p class="eyebrow">ЗАЯВКА НА УБОРКУ</p><h2>Расскажите, что нужно убрать</h2><label>Ваше имя<input name="name" required minlength="2" autocomplete="name" placeholder="Ваше имя"></label><label>Номер телефона<input name="phone" required type="tel" autocomplete="tel" placeholder="+374 ..."></label><label>Услуга<select name="service" id="service-select" required><option value="">Выберите услугу</option><option>Уборка квартир и домов</option><option>Уборка офисов</option><option>Генеральная уборка</option><option>Химчистка мебели</option><option>Уборка после ремонта</option><option>Мытьё окон</option><option>Поддерживающая уборка</option></select></label><label>Комментарий<textarea name="message" rows="3" placeholder="Площадь, район, желаемая дата и время"></textarea></label><button class="button button-primary submit-button" type="submit">Подготовить заявку <span>↗</span></button><p class="form-status" id="form-status" role="status" aria-live="polite"></p><small class="form-note">Форма подготовит текст заявки и откроет WhatsApp. Для отправки нужно указать действующий номер WhatsApp в файле config.js.</small></form></dialog>
+  <button class="to-top" id="to-top" type="button" aria-label="Наверх">↑</button>
+</body>
+</html>
